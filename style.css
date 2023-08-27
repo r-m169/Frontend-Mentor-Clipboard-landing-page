@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Bai Jamjuree", monospace;
+}
+
+.home-page {
+    background: url("./assets/bg-header-desktop.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5vh 0; /* Responsive padding */
+}
+
+.home-page img {
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70px;
+    height: 70px;
+    margin-top: -17px;
+}
+
+.home-page h2 {
+    opacity: 0.7;
+    margin-top: 15vh; /* Responsive margin */
+}
+
+.home-page pre , .keep-track pre{
+    opacity: 0.4;
+    margin-top: 4px; 
+}
+
+.buttons {
+    margin-top: 24px; 
+}
+
+.buttons a {
+    display: inline-block; 
+    margin: 8px 12px; 
+    text-decoration: none;
+    color: white;
+    padding: 0.5em 1.5em; /* Responsive padding */
+    border-radius: 20px;
+    border-bottom: 0.2em solid grey;
+}
+
+.buttons .ios {
+    background-color: hsl(171, 66%, 44%);
+}
+
+.buttons .mac {
+    background-color: hsl(233, 100%, 69%);
+}
+
+.keep-track {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.keep-track-text {
+    margin-bottom: 3vh; 
+    font-size: 1.2em; 
+}
+
+.keep-track-text h2 {
+    margin-top: 0;
+}
+
+.keep-track-text pre {
+    margin-top: 12px;
+}
+
+.content-list {
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+    padding: 10px 20px;
+}
+
+.content img {
+    max-width: 100%;
+    margin-left: -40%;
+    order: -1;
+}
+
+.list {
+    flex: 1;
+    text-align: left;
+    padding-left: 5px; 
+}
+
+.list ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-top: -50%;
+    margin-left: -30%;
+}
+
+.list li {
+    margin-bottom: 18px;
+    
+}
+
+.list h5 {
+    margin: 0; 
+    font-size: 1.2em;
+    opacity: 0.7;
+}
+
+.list p {
+    margin-top: 8px; 
+    opacity: 0.4;
+}
