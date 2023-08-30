@@ -13,7 +13,7 @@ This repository contains my solution to the Clipboard Landing Page challenge fro
 
 ## Demo
 
-You can see the live demo of the project [here]([https://your-demo-link.com](https://frontend-mentor-clipboard-landingpage.netlify.app/)).
+You can see the live demo of the project [https://your-demo-link.com](https://frontend-mentor-clipboard-landingpage.netlify.app/].
 
 ## Features
 
